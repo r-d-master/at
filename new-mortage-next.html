@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Alterna Bank</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.5.4/bootstrap-select.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header class="page-head">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9">
+					<div class="row">
+						<div class="col-sm-6">
+							<img src="images/logo.png" class="logo"/>
+						</div>
+						<div class="col-sm-6">
+							<div class="row">
+								<div class="col-md-12 textright"><a href="#">French </a> | <a href=""> English</a></div>
+								<div class="col-md-12 textright white"> Take the shorter way home</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3"></div>
+			</div>
+		</div>
+	</header>
+	<div class="page-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 main-page">
+					<div class="form-bar">
+						<img src="images/bar-afford.png">
+					</div>
+					<div class="form-container">
+						<div class="row">
+							<div class="col-xs-8"><h3 class="form-header-lb"><strong>Get comfortable with the numbers.</strong></h3></div>
+							<div class="col-xs-4"><a href="#" class="sm-print pull-right textright">Print</a></div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-md-12">
+								<a href="#" class="sm-email pull-right textright">Email</a>
+							</div>
+						</div>
+					
+
+						<div class="mortage-data">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="row">
+										<div class="col-xs-5">
+											<p>The mortage you're considaring</p>
+										</div>
+										<div class="col-xs-7">
+											<p class="big-text">$800,000</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="row">
+										<div class="col-xs-5">
+											<p>Your monthly mortage payment**</p>
+										</div>
+										<div class="col-xs-7">
+											<p class="big-text txt-box">$1,234.56</p>
+											<p class="note-small"> Note: lorum ipsum lorum ipsum for* </p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<form class="mortage-form">
+							<p class="list-form-number">1. Pick a mortgage option</p>
+							<div class="row mb35">
+		                        <div id="alterna_customer_group" class="form-group required">
+		                        	<div class="controls col-md-4 ">	
+		                            	<div class="radio">
+		                            		<input type="radio" name="mortageoption" id="m_option_5_fixed" value="2.48">
+		                            		<label for="m_option_5_fixed">Alterna 5-Year Fixed <span class="big-text">2.48<sup>%</sup></span></label>
+		                            	</div>
+		                            </div>
+			                        <div class="controls col-md-4 ">
+			                        	<div class="radio">
+		                            		<input type="radio" name="mortageoption" id="m_option_4_fixed" value="2.69">
+		                            		<label for="m_option_4_fixed">Alterna 4-Year Fixed <span class="big-text">2.69<sup>%</sup></span></label>
+		                            	</div>
+			                        </div>
+			                        <div class="col-md-4">
+			                        	<div class="radio">
+		                            		<input type="radio" name="mortageoption" id="m_option_5_variable" value="2.70">
+		                            		<label for="m_option_5_variable">Alterna 5-Year Variable <span class="big-text">2.70<sup>%</sup></span></label>
+		                            	</div>
+			                        </div>
+		                        </div>
+	                        </div>
+	                        <div class="row mb35">
+	                        	<div class="col-md-6">
+	                        		<p class="list-form-number">2. Pick amortization years</p>
+	                        	</div>
+								<div class="controls col-md-4 ">
+			                        <select class="selectpicker" data-size="5" style="display: none;">
+			                            <option>Select timeframe</option>
+										<option>5 Years</option>
+										<option>10 Years</option>
+										<option>15 Years</option>
+										<option>20 Years</option>
+										<option>25 Years</option>
+										<option>30 Years</option>
+										<option>35 Years</option>
+										<option>40 Years</option>
+									</select>
+			                    </div>
+	                        </div>
+	                        <div class="row mb35">
+	                        	<div class="col-md-6">
+	                        		<p class="list-form-number">3. Pick payment frequency</p>
+	                        	</div>
+								<div class="controls col-md-4 ">
+			                        <select class="selectpicker" data-size="5" style="display: none;">
+			                            <option>Monthly</option>
+			                        	<option>Bi-monthly</option>
+			                        	<option>Weekly</option>
+			                        </select>
+			                    </div>
+	                        </div>
+	                        <div class="row mb35">
+	                        	<div class="col-md-12">
+	                        		<p class="list-form-number">4. See what your mortage looks like</p>
+	                        	</div>
+	                        	<ul class="nav nav-pills">
+	                        		<li class="active"><a href="#graph" data-toggle="pill">Graph Paydown</a></li>
+	                        		<li><a href="#compare" data-toggle="pill">Compare Rates</a></li>
+	                        		<li><a href="#payment" data-toggle="pill">Payment Frequency</a></li>
+	                        		<li><a href="#amortization" data-toggle="pill">Payment Amortization</a></li>
+	                        	</ul>
+	                        	<div class="tab-content">
+	                        		<div id="graph" class="tab-pane fade in active">
+	                        			<p>
+	                        				Graph Paydown
+	                        			</p>
+	                        			<p></p>
+	                        		</div>
+	                        		<div id="compare" class="tab-pane fade">
+	                        			<h3>Compare Rates</h3>
+	                        			<p></p>
+	                        		</div>
+	                        		<div id="payment" class="tab-pane fade">
+	                        			<h3>Payment Frequency</h3>
+	                        		</div>
+	                        		<div id="amortization" class="tab-pane fade">
+	                        			<h3>Payment Amortization</h3>
+	                        		</div>
+	                        	</div>
+	                        </div>
+						</form>
+
+						<hr>
+						<p class="disclamer">
+							Disclaimers:
+* This is the Bank of Canada’s qualifying rate. It is the rate we use to see if you qualify for this mortgage, and is unlikely to be the rate you would be charged once approved
+** Calculation results are approximations and for information purposes only. Interest rates quoted are not guaranteed and are subject to change without notice. The calculations assume that all payments would be made when due, that the interest rate would remain constant over the entire amortization period, and that all additional costs such as insurance and taxes are not included. Actual payment amounts may differ and would be determined at the time of signing the Mortgage Loan Agreement
+						</p>
+						<hr>
+						<div class="row">
+							<div class="col-md-6 pull-left">
+								<a href="new-mortage.html" class="btn btn-new"><i class="fa fa-arrow-circle-left btn-icon btn-icon-left pull-left" aria-hidden="true"></i>BACK</a>
+							</div>
+							<div class="col-md-6">
+								<a href="start-application.html" class="btn btn-new pull-right">CONTINUE <i class="fa fa-arrow-circle-right btn-icon btn-icon-right pull-right" aria-hidden="true"></i></a>
+							</div>
+						</div>
+
+
+					</div>
+
+				<!-- 	Footer 	-->
+		            <footer class="dark pd45">
+		            	<div class="row">
+		            		<div class="col-sm-6">
+		            			<h2 class="white">Footer</h2>
+		            		</div>
+		            		<div class="col-sm-6">
+		            			<div class="pull-right">
+		            				<p class="white">Power by</p>
+		            			</div>
+		            		</div>
+		            	</div>
+		            </footer>
+
+				</div>
+
+				<!-- 	Page Sidebar	-->
+
+				<div class="col-sm-3 sidebar">
+					<div class="ads">
+						<img src="images/ads.jpg">
+					</div>
+					<div class="twitter-hash"></div>
+					<div class="live-chat">
+						<a href="#"><img src="images/chat.png"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.5.4/bootstrap-select.js"></script>
+<script type="text/javascript">
+      window.onload=function(){
+      $('.selectpicker').selectpicker();
+      };
+    </script>
+</body>
+</html>
