@@ -182,6 +182,9 @@ button.selectpicker .filter-option{
     color: #fff;
     border-radius: 5px;
 }
+.previous, .previouss{
+	background: #949a9c;
+}
 .btn-icon{
     font-size: 1.4em;
 }
