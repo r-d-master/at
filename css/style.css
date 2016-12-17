@@ -406,6 +406,9 @@ span.big-text{
 .mortage-form fieldset:not(:first-of-type) {
 	display: none;
 }
+.fr{
+	display: none;
+}
 
 /********************************/
 /*       Slides backgrounds     */
