@@ -446,6 +446,9 @@ span.big-text{
     top: 23%;
     left: 3%;
 }
+.bootstrap-select>.btn{
+			width: 90%;
+		}
 label input[type="checkbox"] + .cr > .cr-icon{
 	transform: scale(3) rotateZ(-20deg);
     opacity: 0;
