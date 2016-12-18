@@ -455,6 +455,41 @@ label input[type="checkbox"]:checked + .cr > .cr-icon{
 	transform: scale(1) rotateZ(0deg);
     opacity: 1;
 }
+.save-pad{
+	padding: 0 30px 0 0;
+}
+.txt-small{
+	font-weight: normal;
+}
+.txt-dec{
+	font-weight: normal;
+	text-decoration: underline;
+	color: #6a747c;
+}
+.txt-dec:hover{
+	color: #6a747c;
+}
+@media (max-width: 769px) {
+	.pfr{
+		width: 100%;
+	}
+	.plr{
+		width: 100%;
+	}
+	.w44{
+		width: 95%;
+	}
+	.auto-comp{
+		width: 30%;
+	}
+	.previousp{
+		margin-bottom: 15px;
+	}
+	.nextBtnp{
+		float: none !important;
+	}
+	
+}
 /********************************/
 /*       Fade Bs-carousel       */
 /********************************/
