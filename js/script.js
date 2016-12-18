@@ -86,6 +86,17 @@ $(".previoussp").click(function(){
 	//hide the current fieldset with style
 	
 });
+$('input:radio[name="property-in-mind"]').change(
+    function(){
+        if ($(this).is(':checked') && $(this).val() == 'Yes') {
+            $('.p-in-mind-yes').show();
+            $('.p-in-mind-no').hide();
+        }
+        else {
+        	$('.p-in-mind-no').show();
+            $('.p-in-mind-yes').hide();
+        }
+    });
 
 $(".submit").click(function(){
 	return false;

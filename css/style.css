@@ -498,6 +498,38 @@ label input[type="checkbox"]:checked + .cr > .cr-icon{
 	
 }
 /********************************/
+/*       Details Applicaion       */
+/********************************/
+
+.bg-wht{
+	background: #f5f5f5;
+	padding: 0 10px;
+}
+.bb-txt{
+	border-bottom: 1px solid #acb5ba;
+    padding-left: 0;
+    margin-bottom: 15px;
+}
+.mr-9{
+	margin-bottom: -9px;
+}
+.lite{
+	color: #acb5ba;
+}
+.mor-cal{
+	color: #6a747c;
+}
+.fs39{
+	font-size: 39px;
+}
+.fs16{
+	font-size: 16px;
+}
+.p-in-mind-yes{
+	display: none;
+}
+
+/********************************/
 /*       Fade Bs-carousel       */
 /********************************/
 .fade-carousel {
