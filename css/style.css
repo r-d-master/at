@@ -530,6 +530,44 @@ label input[type="checkbox"]:checked + .cr > .cr-icon{
 }
 
 /********************************/
+/*       Assest       */
+/********************************/
+
+.assest input{
+	display: block !important; 
+	padding: 0 !important; 
+	margin: 0 !important; 
+	border: 0 !important; 
+	width: 100% !important; 
+	border-radius: 0 !important; 
+	line-height: 1 !important;
+}
+.assestselect .selectpicker{
+	display: block;
+    width: 100%;
+    /* height: 100%; */
+    /* padding: 11px 0; */
+    border: none;
+}
+.assestselect .bootstrap-select{
+	margin-bottom: 0 !important;
+}
+.assest td {margin: 0 !important; padding: 0 !important;}
+.assest .pl10{
+	padding-left: 10px !important;
+}
+.assestselect .bootstrap-select.btn-group .btn .caret{
+	background: url(../images/tb-drop.jpg);
+	width: 32px;
+	height: 32px;
+}
+.assestselect button.selectpicker .filter-option{
+	padding: 7px 0 5px 7px;
+}
+.assest .form-control{
+	height: 32px;
+}
+/********************************/
 /*       Fade Bs-carousel       */
 /********************************/
 .fade-carousel {
