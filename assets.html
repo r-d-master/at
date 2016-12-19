@@ -84,8 +84,8 @@
 						        <p class="en">DETAILS OF HOME</p>
 						        <p class="fr">DETAILS OF HOME</p>
 						      </div>
-						      <div class="stepwizard-step">
-						        <a href="#step-4" type="button" class="btn btn-default btn-circle pb-disable" disabled="disabled"></a>
+						      <div class="stepwizard-step sw-active">
+						        <a href="#step-4" type="button" class="btn btn-default btn-circle pb-active"></a>
 						        <p class="en">WHAT I OWN/OWE</p>
 						        <p class="fr">WHAT I OWN/OWE</p>
 						      </div>
@@ -105,9 +105,21 @@
 							<fieldset>
 								<div class="row">
 									<div class="col-md-12">
-										<h2 class=" fs20 en">It takes only a few minutes to pre-qualify.</h2>
-										<h2 class=" fs20 fr">It takes only a few minutes to pre-qualify.</h2>
+										<p class="rq pull-right mt0 mb15 en"><span class="asteriskField">*</span>Required Field</p>
+				                        <p class="rq pull-right mt0 mb15 fr"><span class="asteriskField">*</span>Required Field</p>
 									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<h2 class=" fs26 en">Let's take a financial snapshot.</h2>
+										<h2 class=" fs26 fr">Let's take a financial snapshot.</h2>
+									</div>
+								</div>
+								<div class="row mb35">
+									<div class="col-sm-6">
+										<p class="em fs26 pt30">What you own*</p>
+									</div>
+									<div class="col-sm-6"><img src="images/dollar-bag.png" class="pull-right dollar-bag mt-15"></div>
 								</div>
 
 								<table class="table table-bordered table-condensed assest">
@@ -189,6 +201,279 @@
 							        </tr>
 							      </tbody>
 							    </table>
+
+							    <div class="row mb35">
+									<div class="col-md-6 col-md-offset-6">
+										<button class="btn btn-new nextBtnp pull-right en" type="button">CONTINUE <i class="fa fa-arrow-circle-right btn-icon btn-icon-right pull-right" aria-hidden="true"></i></button>
+										<button class="btn btn-new nextBtnp pull-right fr" type="button">CONTINUE <i class="fa fa-arrow-circle-right btn-icon btn-icon-right pull-right" aria-hidden="true"></i></button>
+									</div>
+								</div>
+
+						   </fieldset>
+
+						   <fieldset>
+								<div class="row">
+									<div class="col-md-12">
+										<p class="rq pull-right mt0 mb15 en"><span class="asteriskField">*</span>Required Field</p>
+				                        <p class="rq pull-right mt0 mb15 fr"><span class="asteriskField">*</span>Required Field</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<h2 class=" fs26 en">Let's take a financial snapshot.</h2>
+										<h2 class=" fs26 fr">Let's take a financial snapshot.</h2>
+									</div>
+								</div>
+								<div class="row mb35">
+									<div class="col-sm-6">
+										<p class="em fs26 pt30">What you own*</p>
+									</div>
+									<div class="col-sm-6"><img src="images/dollar-mail.png" class="pull-right dollar-mail mt-15"></div>
+								</div>
+								<div class="row">
+									<table class="table table-bordered table-condensed assest assest-f">
+								      
+								      	<thead>
+											<tr>
+											    <th class="pl10">Type</th>
+											    <th class="pl10">Institution</th>
+											    <th class="pl10">Balance</th>
+											    <th class="pl10">Payment</th>
+											    <th class="pl10">Ownership</th>
+											    <th class="pl10">Pay Off</th>
+											</tr>
+										</thead>
+
+										<tbody>
+								        <tr>
+								          <td><input type="text" class="form-control pl10" disabled="disabled" value="Mortgage" /></td>
+								          <td class="assestselect assestselect-f">
+									          	<select class="selectpicker" data-size="5" style="display: block;">
+								                    <option>Primary</option>
+													<option>Primary</option>
+													<option>Primary</option>
+													<option>Primary</option>
+												</select>
+											</td>
+								          <td><input type="text" class="form-control pl10" /></td>
+								          <td><input type="text" class="form-control pl10" /></td>
+								          <td class="assestselect assestselect-f">
+									          	<select class="selectpicker" data-size="5" style="display: block;">
+								                    <option>Primary</option>
+													<option>Primary</option>
+													<option>Primary</option>
+													<option>Primary</option>
+												</select>
+											</td>
+											<td>
+												<div class="col-sm-6">
+														<div class="radio pa-cus mt5">
+						                            		<input type="radio" name="payoffmortgade" id="p-o-mort-yes" value="Yes" checked="checked">
+						                            		<label for="p-o-mort-yes" class="en">Yes</label>
+						                            		<label for="p-o-mort-yes" class="fr">Yes</label>
+					                            		</div>
+													</div>
+													<div class="col-sm-6">
+														<div class="radio pa-cus mt5">
+						                            		<input type="radio" name="payoffmortgade" id="p-o-mort-no" value="no">
+						                            		<label for="p-o-mort-no" class="en">No </label>
+						                            		<label for="p-o-mort-no" class="fr">No </label>
+					                            		</div>
+													</div>
+											</td>
+								        </tr>
+								        <tr>
+								          <td><input type="text" class="form-control pl10" disabled="disabled" value="Car Loan" /></td>
+								          <td class="assestselect assestselect-f">
+									          	<select class="selectpicker" data-size="5" style="display: block;">
+								                    <option>Primary</option>
+													<option>Primary</option>
+													<option>Primary</option>
+													<option>Primary</option>
+												</select>
+											</td>
+								          <td><input type="text" class="form-control pl10" /></td>
+								          <td><input type="text" class="form-control pl10" /></td>
+								          <td class="assestselect assestselect-f">
+									          	<select class="selectpicker" data-size="5" style="display: block;">
+								                    <option>Primary</option>
+													<option>Primary</option>
+													<option>Primary</option>
+													<option>Primary</option>
+												</select>
+											</td>
+											<td>
+												<div class="col-sm-6">
+														<div class="radio pa-cus mt5">
+						                            		<input type="radio" name="payoffcarloan" id="p-o-cl-yes" value="Yes" checked="checked">
+						                            		<label for="p-o-cl-yes" class="en">Yes</label>
+						                            		<label for="p-o-mort-yes" class="fr">Yes</label>
+					                            		</div>
+													</div>
+													<div class="col-sm-6">
+														<div class="radio pa-cus mt5">
+						                            		<input type="radio" name="payoffcarloan" id="p-o-cl-no" value="no">
+						                            		<label for="p-o-cl-no" class="en">No </label>
+						                            		<label for="p-o-cl-no" class="fr">No </label>
+					                            		</div>
+													</div>
+											</td>
+								        </tr>
+								        <tr>
+								          <td><input type="text" class="form-control pl10" disabled="disabled" value="Other Loans" /></td>
+								          <td class="assestselect assestselect-f">
+									          	<select class="selectpicker" data-size="5" style="display: block;">
+								                    <option>Primary</option>
+													<option>Primary</option>
+													<option>Primary</option>
+													<option>Primary</option>
+												</select>
+											</td>
+								          <td><input type="text" class="form-control pl10" /></td>
+								          <td><input type="text" class="form-control pl10" /></td>
+								          <td class="assestselect assestselect-f">
+									          	<select class="selectpicker" data-size="5" style="display: block;">
+								                    <option>Primary</option>
+													<option>Primary</option>
+													<option>Primary</option>
+													<option>Primary</option>
+												</select>
+											</td>
+											<td>
+												<div class="col-sm-6">
+														<div class="radio pa-cus mt5">
+						                            		<input type="radio" name="payoffotherloan" id="p-o-ol-yes" value="Yes" checked="checked">
+						                            		<label for="p-o-ol-yes" class="en">Yes</label>
+						                            		<label for="p-o-ol-yes" class="fr">Yes</label>
+					                            		</div>
+													</div>
+													<div class="col-sm-6">
+														<div class="radio pa-cus mt5">
+						                            		<input type="radio" name="payoffotherloan" id="p-o-ol-no" value="no">
+						                            		<label for="p-o-ol-no" class="en">No </label>
+						                            		<label for="p-o-ol-no" class="fr">No </label>
+					                            		</div>
+													</div>
+											</td>
+								        </tr>
+								        <tr>
+								          <td><input type="text" class="form-control pl10" disabled="disabled" value="Line of Credit" /></td>
+								          <td class="assestselect assestselect-f">
+									          	<select class="selectpicker" data-size="5" style="display: block;">
+								                    <option>Primary</option>
+													<option>Primary</option>
+													<option>Primary</option>
+													<option>Primary</option>
+												</select>
+											</td>
+								          <td><input type="text" class="form-control" /></td>
+								          <td><input type="text" class="form-control" /></td>
+								          <td class="assestselect assestselect-f">
+									          	<select class="selectpicker" data-size="5" style="display: block;">
+								                    <option>Primary</option>
+													<option>Primary</option>
+													<option>Primary</option>
+													<option>Primary</option>
+												</select>
+											</td>
+											<td>
+												<div class="col-sm-6">
+														<div class="radio pa-cus mt5">
+						                            		<input type="radio" name="payoffloc" id="p-o-loc-yes" value="Yes" checked="checked">
+						                            		<label for="p-o-loc-yes" class="en">Yes</label>
+						                            		<label for="p-o-loc-yes" class="fr">Yes</label>
+					                            		</div>
+													</div>
+													<div class="col-sm-6">
+														<div class="radio pa-cus mt5">
+						                            		<input type="radio" name="payoffloc" id="p-o-loc-no" value="no">
+						                            		<label for="p-o-loc-no" class="en">No </label>
+						                            		<label for="p-o-loc-no" class="fr">No </label>
+					                            		</div>
+													</div>
+											</td>
+								        </tr>
+								        <tr>
+								          <td><input type="text" class="form-control pl10" disabled="disabled" value="Credit Card" /></td>
+								          <td class="assestselect assestselect-f">
+									          	<select class="selectpicker" data-size="5" style="display: block;">
+								                    <option>Primary</option>
+													<option>Primary</option>
+													<option>Primary</option>
+													<option>Primary</option>
+												</select>
+											</td>
+								          <td><input type="text" class="form-control pl10" /></td>
+								          <td><input type="text" class="form-control pl10" /></td>
+								          <td class="assestselect assestselect-f">
+									          	<select class="selectpicker" data-size="5" style="display: block;">
+								                    <option>Primary</option>
+													<option>Primary</option>
+													<option>Primary</option>
+													<option>Primary</option>
+												</select>
+											</td>
+											<td>
+												
+												<div class="col-sm-6">
+														<div class="radio pa-cus mt5">
+						                            		<input type="radio" name="payoffcc" id="p-o-cc-yes" value="Yes" checked="checked">
+						                            		<label for="p-o-cc-yes" class="en">Yes</label>
+						                            		<label for="p-o-cc-yes" class="fr">Yes</label>
+					                            		</div>
+													</div>
+													<div class="col-sm-6">
+														<div class="radio pa-cus mt5">
+						                            		<input type="radio" name="payoffcc" id="p-o-cc-no" value="no">
+						                            		<label for="p-o-cc-no" class="en">No </label>
+						                            		<label for="p-o-cc-no" class="fr">No </label>
+					                            		</div>
+													</div>
+											
+											</td>
+								        </tr>
+								        <tr>
+								          <td><input type="text" class="form-control pl10" disabled="disabled" value="Other" /></td>
+								          <td class="assestselect assestselect-f">
+									          	<select class="selectpicker" data-size="5" style="display: block;">
+								                    <option>Primary</option>
+													<option>Primary</option>
+													<option>Primary</option>
+													<option>Primary</option>
+												</select>
+											</td>
+								          <td><input type="text" class="form-control pl10" /></td>
+								          <td><input type="text" class="form-control pl10" /></td>
+								          <td class="assestselect assestselect-f">
+									          	<select class="selectpicker" data-size="5" style="display: block;">
+								                    <option>Primary</option>
+													<option>Primary</option>
+													<option>Primary</option>
+													<option>Primary</option>
+												</select>
+											</td>
+											<td>
+												
+												<div class="col-sm-6">
+														<div class="radio pa-cus mt5">
+						                            		<input type="radio" name="payoffother" id="p-o-other-yes" value="Yes" checked="checked">
+						                            		<label for="p-o-other-yes" class="en">Yes</label>
+						                            		<label for="p-o-other-yes" class="fr">Yes</label>
+					                            		</div>
+													</div>
+													<div class="col-sm-6">
+														<div class="radio pa-cus mt5">
+						                            		<input type="radio" name="payoffother" id="p-o-other-no" value="no">
+						                            		<label for="p-o-other-no" class="en">No </label>
+						                            		<label for="p-o-other-no" class="fr">No </label>
+					                            		</div>
+													</div>
+											
+											</td>
+								        </tr>
+								      </tbody>
+								    </table>
+							    </div>
 
 							    <div class="row mb35">
 									<div class="col-md-6 col-md-offset-6">

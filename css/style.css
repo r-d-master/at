@@ -567,6 +567,22 @@ label input[type="checkbox"]:checked + .cr > .cr-icon{
 .assest .form-control{
 	height: 32px;
 }
+.mt-15{
+	margin-top: -15px;
+}
+.pt30{
+	padding-top: 30px;
+}
+.assestselect-f .bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
+	width: 100%;
+}
+.assest-f td{
+	width: 103px;
+}
+.mt5{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
 /********************************/
 /*       Fade Bs-carousel       */
 /********************************/
@@ -744,6 +760,9 @@ label input[type="checkbox"]:checked + .cr > .cr-icon{
 }
 .fs10{
 	font-size: 10px;
+}
+.fs26{
+	font-size: 26px;
 }
 .fa2{
 	font-size: 2em;
