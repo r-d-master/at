@@ -635,6 +635,11 @@ label input[type="checkbox"]:checked + .cr > .cr-icon{
 .r-form-container .assest-f td {
     width: 90px;
 }
+@media (max-width: 769px) {
+	.final-step{
+		margin-top: -26px;
+	}
+}
 
 
 /********************************/
