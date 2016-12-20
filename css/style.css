@@ -583,6 +583,60 @@ label input[type="checkbox"]:checked + .cr > .cr-icon{
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
+
+/********************************/
+/*       Review                 */
+/********************************/
+.mr-38{
+	margin-bottom: -38px;
+}
+.mb40{
+	margin-bottom: 40px;
+}
+.p0{
+	padding: 0;
+}
+.final-step{
+	position: absolute;
+    right: 0;
+    top: -23px;
+}
+.review-img{
+	position: absolute;
+    margin-left: -40px;
+    top: -16px;
+}
+.color-dark{
+	color: #3f3f3f;
+}
+.r-form-container {
+    padding: 40px 40px;
+    background: #f5f5f5;
+}
+.foot-step{
+	margin-top: -16px;
+}
+.new-mortgage-edit{
+	font-size: 12px;
+	padding-right: 10px;
+}
+.mr-10{
+	margin-bottom: -10px;
+}
+.oaa:hover, .new-mortgage-edit:hover{
+	color: #337ab7;
+}
+.fnormal{
+	font-weight: normal;
+}
+.r-form-container td input{
+	font-size: 11px;
+}
+.r-form-container .assest-f td {
+    width: 90px;
+}
+
+
 /********************************/
 /*       Fade Bs-carousel       */
 /********************************/
@@ -763,6 +817,9 @@ label input[type="checkbox"]:checked + .cr > .cr-icon{
 }
 .fs26{
 	font-size: 26px;
+}
+.fs11{
+	font-size: 11px;
 }
 .fa2{
 	font-size: 2em;
