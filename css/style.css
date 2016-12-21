@@ -372,7 +372,7 @@ span.big-text{
 }
 @media (min-width: 992px){
 	.mortage, .switch {
-	    width: 43.61%;
+	    width: 42.61%;
 	}
 }
 
@@ -576,13 +576,15 @@ label input[type="checkbox"]:checked + .cr > .cr-icon{
 .assestselect-f .bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
 	width: 100%;
 }
-.assest-f td{
+/* .assest-f td{
 	width: 103px;
-}
+} */
 .mt5{
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
+
+
 
 /********************************/
 /*       Review                 */
@@ -672,6 +674,163 @@ label input[type="checkbox"]:checked + .cr > .cr-icon{
 .diss{
 	margin-bottom: 2px;
 }
+
+/********************************/
+/*       Home Page              */
+/********************************/
+
+.slidesetup{
+	height: auto;
+	width: 100%;
+	padding: 2em;
+    background: #94c4db;
+}
+
+/**
+ * Circle Styles
+ */
+
+.circle {
+  position: relative;
+  display: block;
+  /* margin: 2em 0; */
+  margin: 1em 1em 0;
+  background-color: transparent;
+  color: #fff;
+  text-align: center;
+}
+
+.circle:after {
+  display: block;
+  padding-bottom: 100%;
+  width: 100%;
+  height: 0;
+  border-radius: 50%;
+  background-color: #3f3f3f;
+  content: "";
+}
+
+.circle__inner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.circle__wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.circle__content {
+  display: table-cell;
+  padding: 0.1em;
+  vertical-align: middle;
+}
+.slide-icon{
+	width: auto !important;
+	margin:auto;
+}
+.home-sm-button{
+	margin-top: -20px;
+	margin-bottom: 15px;
+}
+
+@media (min-width: 480px) {
+  .circle__content {
+    /* font-size: 2em; */
+    font-size: 20px;
+  }
+  /* .slidesetup{
+  	width: 325px !important;
+  	margin-left: 14px;
+  	margin-right: 0 !important;
+  }
+  .switch, .mortage{
+  	margin: 30px;
+  } */
+
+}
+.fs3em{
+	font-size: 3em;
+}
+@media (max-width: 420px) {
+  .circle__content {
+    /* font-size: 2em; */
+    font-size: 20px;
+  }
+  .slidesetup{
+  	width: 325px !important;
+  	margin-left: 14px;
+  	margin-right: 0 !important;
+  }
+  .switch, .mortage{
+  	margin: 30px;
+  }
+
+}
+
+
+.fs35{
+	font-size: 35px;
+}
+.fs29{
+	font-size: 29px;
+	line-height: 1;
+}
+.fs22{
+	font-size: :22px;
+	line-height: 1;
+}
+.br-right{
+	border-right: 1px solid #3f3f3f;
+}
+.main-page, .sidebar{
+	width: 100%;
+}
+
+@media (min-width: 768px) {
+  .circle__content {
+    font-size: 29px;
+  }
+  .slidesetup{
+  	height: 376px;
+  	width: 755px;
+  }
+  .slidetext{
+  	margin-top: 9em;
+  	font-size: 14px;
+  }
+  .owl-carousel .owl-stage-outer{
+  	z-index: -1;
+  }
+  .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: -40px;
+    z-index: 1;
+    margin-bottom: 10px;
+	}
+	.mtd43{
+		margin-top: 43px;
+	}
+	.mtd7{
+		margin-top: 7px;
+	}
+	.main-page, .page-head .col-md-9{
+		width: 760px;
+		padding-left: 0;
+		padding-right: 5px;
+	}
+	.sidebar{
+		width: 169px;
+		padding-left: 5px;
+		padding-right: 0;
+	}
+}
+
+
 
 /********************************/
 /*       Fade Bs-carousel       */
@@ -795,7 +954,7 @@ label input[type="checkbox"]:checked + .cr > .cr-icon{
     bottom: 0;
     position: absolute;
     content: " ";
-    width: 92%;
+    width: 106%;
     left: 65px;
     height: 2px;
     background-color: #95c4da;
@@ -916,4 +1075,36 @@ label input[type="checkbox"]:checked + .cr > .cr-icon{
 @media screen and (max-width: 640px){
     .hero h1 { font-size: 4em; }
     .sidebar{display: none;}    
+}
+@media (max-width: 484px) {
+	.assestselect .bootstrap-select:not([class*="span"]):not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
+		width: 100%;
+	}
+	table{
+		width: 100%;
+	}
+	.assest-f td, .assest td{
+		min-width: 103px;
+	}
+	.r-form-container{
+		padding: 40px 6px;
+	}
+	::-webkit-scrollbar {
+	width: 7px;
+	-webkit-appearance: none;
+	}
+	::-webkit-scrollbar-thumb {
+	    border-radius: 4px;
+	    background-color: rgba(0,0,0,.5);
+	    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+	}
+	.final-step, .foot-step, .review-img{
+		display: none;
+	}
+}
+@media (max-width: 321px) {
+	.btn-new{
+		min-width: 126px;
+	}
+	
 }
