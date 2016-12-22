@@ -22,6 +22,24 @@
 		    }
 		});
 
+		function toggleChevron(e) {
+		  $(e.target)
+		    .prev('.panel-heading')
+		    .find("i")
+		    .toggleClass('fa fa-minus fa fa-plus');
+		}
+		$('#accordion').on('hidden.bs.collapse', toggleChevron);
+		$('#accordion').on('shown.bs.collapse', toggleChevron);
+
+		$('.click-fr').click(function(){
+			$('.fr').show();
+			$('.en').hide();
+		});
+		$('.click-en').click(function(){
+			$('.en').show();
+			$('.fr').hide();
+		});
+
 		$(".nextBtn").click(function(){
 	
 	

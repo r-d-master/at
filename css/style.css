@@ -372,7 +372,7 @@ span.big-text{
 }
 @media (min-width: 992px){
 	.mortage, .switch {
-	    width: 42.61%;
+	    width: 44.04%;
 	}
 }
 
@@ -392,7 +392,7 @@ span.big-text{
 	border-color: #95c4da;
 }
 /********************************/
-/*       Primary Applicant       */
+/*       Primary Applicant      */
 /********************************/
 
 .plabel-w{
@@ -685,7 +685,16 @@ label input[type="checkbox"]:checked + .cr > .cr-icon{
 	padding: 2em;
     background: #94c4db;
 }
-
+.faq a:hover{
+	color: #3f3f3f;
+}
+.tab-plus{
+	padding: 9px 13px;
+    background: #687479;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 20px;
+}
 /**
  * Circle Styles
  */
@@ -738,6 +747,32 @@ label input[type="checkbox"]:checked + .cr > .cr-icon{
 	margin-top: -20px;
 	margin-bottom: 15px;
 }
+.faqa{
+	padding: 30px 50px;
+}
+/* .fa {
+  display: inline-block;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+.fa {
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+} */
+
+.modal-switch{
+	background: #94c4db;
+}
+.modal-header-switch{
+	border-bottom: none;
+}
+.modal-body-switch{
+	padding: 50px;
+}
+.p065{
+	padding: 0 65px;
+}
 
 @media (min-width: 480px) {
   .circle__content {
@@ -760,15 +795,59 @@ label input[type="checkbox"]:checked + .cr > .cr-icon{
 @media (max-width: 420px) {
   .circle__content {
     /* font-size: 2em; */
-    font-size: 20px;
+    font-size: 30px;
   }
   .slidesetup{
-  	width: 325px !important;
-  	margin-left: 14px;
+  	width: 368px !important;
+  	margin-left: 0;
   	margin-right: 0 !important;
+  	min-height: 460px;
+  }
+  .mh44{
+  	min-height: 44px;
+  }
+  .mt10{
+  	margin-top: 10px;
+  }
+  .home-sm-button{
+  	margin-top: 0;
+  	margin-bottom: 0;
+  }
+  .ms-txt{
+  	padding: 18px 0 8px;
+  }
+  .switch-mortage{
+  	padding: 5px 8px;
+  	margin-top: 4px;
+    margin-bottom: 10px;
+  }
+  .btn-icon-sm{
+  	font-size: 1em;
   }
   .switch, .mortage{
   	margin: 30px;
+  }
+  .mpt5{
+  	padding-top: 5px;
+  }
+  .mpt10{
+  	padding-top: 10px;
+  }
+  .mpb0{
+  	padding-bottom: 0;
+  }
+  .slidesetup hr{
+  	margin-top: 3px;
+  }
+  .slidetext{
+  	font-size: 14px;
+    margin-top: 35px;
+  }
+  .panel-bg .panel-title {
+  	font-size: 18px;
+  }
+  .mmt{
+  	margin-top: 15px;
   }
 
 }
