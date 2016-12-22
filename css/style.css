@@ -1151,6 +1151,9 @@ label input[type="checkbox"]:checked + .cr > .cr-icon{
 @media screen and (min-width: 980px){
     /*.hero { width: 980px; }    */
 }
+@media (min-width: 769px) and (max-width: 990px){
+	.sidebar{display: none;}
+}
 @media screen and (max-width: 640px){
     .hero h1 { font-size: 4em; }
     .sidebar{display: none;}    
